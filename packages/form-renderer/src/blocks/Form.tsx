@@ -304,7 +304,7 @@ export const Form: FC<FormProps> = ({
           </Field>
           {isLastBlock && (
             <div className="heyform-submit-warn">
-              {t('Never submit passwords!')} -{' '}
+              {t('Never submit passwords!')}
             </div>
           )}
         </>

@@ -55,7 +55,6 @@ export class CreateFormResolver {
         {
           id: nanoid(12),
           title: ['Thank you!'],
-          description: ['Thanks for completing this form.'],
           kind: FieldKindEnum.THANK_YOU
         }
       ],

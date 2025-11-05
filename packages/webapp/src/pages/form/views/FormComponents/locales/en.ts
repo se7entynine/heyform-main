@@ -50,8 +50,8 @@ export default {
   'End date is not valid': 'End date is not valid',
   'End date must be after start date': 'End date must be after start date',
   'Thank you!': 'Thank you!',
-  'Thanks for completing this form. Now create your own form.':
-    'Thanks for completing this form. Now create your own form.',
+  'Thanks for completing this form.':
+    'Thanks for completing this form.',
   'Form unavailable': 'Form unavailable',
   'Create a heyform': 'Create a heyform',
   "The form can't receive new submissions now.": "The form can't receive new submissions now.",

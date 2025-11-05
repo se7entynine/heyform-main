@@ -50,8 +50,8 @@ export default {
   'End date is not valid': '結束日期無效',
   'End date must be after start date': '結束日期必須在開始日期之後',
   'Thank you!': '感謝您！',
-  'Thanks for completing this form. Now create your own form.':
-    '感謝您完成此表單。現在建立您自己的表單。',
+  'Thanks for completing this form.':
+    '感謝您完成此表單。',
   'Form unavailable': '表單不可用',
   'Create a heyform': '建立一個 HeyForm',
   "The form can't receive new submissions now.": '表單現在無法接收新的提交。',

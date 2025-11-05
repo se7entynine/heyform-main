@@ -49,8 +49,8 @@ export default {
   'End date is not valid': '終了日が無効です',
   'End date must be after start date': '終了日は開始日の後でなければなりません',
   'Thank you!': 'ありがとうございます！',
-  'Thanks for completing this form. Now create your own form.':
-    'このフォームに記入いただきありがとうございます。今度は自分のフォームを作成してください。',
+  'Thanks for completing this form.':
+    'このフォームに記入いただきありがとうございます',
   'Form unavailable': 'フォームは利用できません',
   'Create a heyform': 'heyformを作成する',
   "The form can't receive new submissions now.":

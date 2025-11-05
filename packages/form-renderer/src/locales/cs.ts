@@ -49,7 +49,7 @@ export default {
     'End date is not valid': 'Datum konce není platné',
     'End date must be after start date': 'Datum konce musí být po datu začátku',
     'Thank you!': 'Děkujeme!',
-    'Thanks for completing this form. Now create your own form.':
+    'Thanks for completing this form.':
       'Děkujeme za vyplnění formuláře. Nyní můžete vyplnit vlastní.',
     'Form unavailable': 'Formulář nedostupný',
     'Create a heyform': 'Vytvořit formulář',

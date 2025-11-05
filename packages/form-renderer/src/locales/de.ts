@@ -50,8 +50,8 @@ export default {
   'End date is not valid': 'Enddatum ist nicht gültig',
   'End date must be after start date': 'Enddatum muss nach dem Startdatum liegen',
   'Thank you!': 'Danke!',
-  'Thanks for completing this form. Now create your own form.':
-    'Danke, dass Sie dieses Formular ausgefüllt haben. Erstellen Sie jetzt Ihr eigenes Formular.',
+  'Thanks for completing this form.':
+    'Danke, dass Sie dieses Formular ausgefüllt haben.',
   'Form unavailable': 'Formular nicht verfügbar',
   'Create a heyform': 'Erstellen Sie ein Heyform',
   "The form can't receive new submissions now.":

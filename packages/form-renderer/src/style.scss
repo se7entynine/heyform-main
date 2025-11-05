@@ -1517,7 +1517,6 @@ button.button-icon-only {
 
 .heyform-progress,
 .heyform-countdown,
-.heyform-branding,
 .heyform-pagination button.button {
   @apply px-2.5 py-2.5 text-sm shadow-none md:py-0.5;
   min-height: 1.875rem;
@@ -1574,11 +1573,6 @@ button.button-icon-only {
 .heyform-pagination,
 .heyform-sidebar-toggle {
   @apply mr-2;
-}
-
-.heyform-branding {
-  @apply rounded;
-  line-height: 1.5rem;
 }
 
 .heyform-pagination .button {
@@ -1776,8 +1770,7 @@ button.heyform-submit-button {
 }
 
 .heyform-branding {
-  background-color: var(--heyform-button-color);
-  color: var(--heyform-button-text-color);
+  display: none !important;
 }
 
 .heyform-is-welcome {
@@ -1788,14 +1781,6 @@ button.heyform-submit-button {
 
     .heyform-footer-right {
       @apply justify-center;
-    }
-
-    .heyform-branding {
-      @apply flex w-full items-center justify-center gap-2 text-base font-medium;
-
-      svg {
-        @apply block h-auto w-5;
-      }
     }
   }
 }
@@ -2007,8 +1992,5 @@ button.heyform-submit-button {
       @apply justify-center;
     }
 
-    .heyform-branding {
-      @apply w-full bg-transparent text-center text-base font-bold text-black;
-    }
   }
 }

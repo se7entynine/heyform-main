@@ -153,7 +153,7 @@ export const Blocks = () => {
     const thankYouField = state.thankYouFields?.find(f => f.id === state.thankYouFieldId)
 
     const field: any = thankYouField || {
-      title: t('Thank you!')
+      t('Thank you!')
     }
 
     return <ThankYou field={field} />

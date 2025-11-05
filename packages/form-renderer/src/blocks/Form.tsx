@@ -303,12 +303,6 @@ export const Form: FC<FormProps> = ({
             <Submit text={t('Submit')} loading={loading} />
           </Field>
           {isLastBlock && (
-            <div className="heyform-submit-warn">
-              {t('Never submit passwords!')} -{' '}
-              <a href={state.reportAbuseURL} target="_blank" rel="noreferrer">
-                {t('Report Abuse')}
-              </a>
-            </div>
           )}
         </>
       ) : (

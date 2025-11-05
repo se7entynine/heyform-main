@@ -155,9 +155,6 @@ export const Blocks = () => {
     const field: any = thankYouField || {
       title: t('Thank you!'),
       description: t('Thanks for completing this form.'),
-      properties: {
-        buttonText: t('Create a heyform')
-      }
     }
 
     return <ThankYou field={field} />

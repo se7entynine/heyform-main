@@ -156,7 +156,6 @@ export const Blocks = () => {
   if (state.isSubmitted) {
     const field: any = state.thankYouField || {
       title: t('Thank you!'),
-      description: t('Thanks for completing this form. Now create your own form.'),
       properties: {
         buttonText: t('Create a heyform')
       }

@@ -58,12 +58,7 @@ export class GraphqlService implements GqlOptionsFactory {
         return response
       },
       context: ({ req, res }) => ({ req, res }),
-      cors: {
-        credentials: true,
-        origin: ['https://umfrage.internetzi.de', 'https://www.umfrage.internetzi.de'],
-        methods: ['GET', 'POST', 'OPTIONS'],
-        allowedHeaders: ['Content-Type', 'Authorization']
-      },
+      cors: false,
       uploads: false
     }
   }

@@ -95,6 +95,7 @@ export default {
   'Card cvc is incomplete': 'Karten-CVC ist unvollständig',
   'Invalid payment amount': 'Ungültiger Zahlungsbetrag',
   'Invalid payment currency': 'Ungültige Zahlungswährung',
+  'Other answer': 'Andere Antwort',
   reportMeta_zero: 'Noch keine Einreichungen',
   reportMeta_one: '{{count}} Einreichung',
   reportMeta_other: '{{count}} Einreichungen',

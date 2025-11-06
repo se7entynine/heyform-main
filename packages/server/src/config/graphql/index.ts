@@ -60,17 +60,7 @@ export class GraphqlService implements GqlOptionsFactory {
       context: ({ req, res }) => ({ req, res }),
       cors: {
         credentials: true,
-        origin: (origin, callback) => {
-          const allowedOrigins = [
-            'https://umfrage.internetzi.de',
-            'https://www.umfrage.internetzi.de'
-          ]
-          if (!origin || allowedOrigins.includes(origin)) {
-            callback(null, true)
-          } else {
-            callback(new Error('Not allowed by CORS'))
-          }
-        },
+        origin: ['https://umfrage.internetzi.de', 'https://www.umfrage.internetzi.de'],
         methods: ['GET', 'POST', 'OPTIONS'],
         allowedHeaders: ['Content-Type', 'Authorization']
       },

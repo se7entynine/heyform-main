@@ -58,7 +58,6 @@ export class GraphqlService implements GqlOptionsFactory {
         return response
       },
       context: ({ req, res }) => ({ req, res }),
-      cors: false,
       uploads: false
     }
   }
